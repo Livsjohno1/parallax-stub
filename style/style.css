@@ -1,0 +1,98 @@
+/* * = sets stuff for everything  */
+* {
+    margin: 0;
+}
+
+body {
+    /* vh = viewport height  */
+    height: 100vh;
+}
+
+/* using class as applying to more than one image  */
+.p-img {
+    /* background image styling  */
+    background-position: center;
+    /* cover = fits the image to screen without distorting it  */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* flex set up  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#p1 {
+    height: 100vh;
+    background-image: url("../images/dan.jpg")
+}
+
+#p2 {
+    height: 500px;
+    background-image: url("../images/angus.JPG");
+}
+
+#p3 {
+    height: 500px;
+    background-image: url("../images/zante.JPG");
+}
+
+#p4{
+    height:500px;
+    background-image: url("../images/groovy.jpg")
+}
+#p5 {
+    height: 100vh;
+    background-image: url("../images/em.JPG");
+}
+
+
+.p-text-container {
+    background-color:rgba(0, 0, 0, 0.576);
+    height: 50px;
+    padding: 25px;
+    box-shadow: 30px, black;
+}
+
+.p-title {
+    color:white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+
+.section {
+    
+    background-image: url("../images/background.jpg");
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 200px;
+  
+
+}
+
+.section-title {
+    background-color: aliceblue;
+    padding: 30px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    text-decoration: underline;
+
+}
+
+.section-text {
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height:18px;
+    text-align: justify;
+    
+}
